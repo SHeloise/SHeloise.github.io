@@ -1,8 +1,0 @@
-h1{
-	color: #aeddd8;
-	background: linear-gradient(20deg, rgba(10, 10, 10, 0.5), rgba(200, 200, 200, 0.5)), url(images/bijou-5.png) ;
-	background-position: center; 
-	background-size: cover;
-	padding: 100px;
-	font-family: 'Spicy Rice', cursive;
-}

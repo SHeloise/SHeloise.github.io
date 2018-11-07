@@ -1,0 +1,24 @@
+#banner{
+	position: relative;
+	background: url("images/amatista-amethyst-beautiful-1121123.jpg") ;
+	background-position: center; 
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-align: center;
+	text-shadow: 4px 4px 20px black;
+
+	padding: 100px
+
+	
+}
+
+.logo{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: rgba(255, 255, 255, 0.55);
+	border-radius: 100px;
+
+
+}
