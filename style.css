@@ -64,7 +64,66 @@
   height: 600px;
 }
 
+.nav-text{
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 4px 20px grey;
+  margin-top: 50px;
+  color: #f198a6
+}
+
 .row{
   margin-top: 100px;
-  margin-bottom: 100px;
+  
 }
+.bijoux{
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.bijoux1{
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.bijoux2{
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.bijoux3{
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.card-title{
+  text-align: center;
+}
+.card-text{
+  color: #7737a5;
+}
+.btn{
+  margin-left: 75px;
+  background: #9db9f8
+}
+
+#footer{
+  background: #eeeeee;
+  padding-top: 300px;
+}
+
+.navbar4{
+  width: 600px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.navbar3{
+  padding-left: 500px;
+  text-align: center;
+}
+
+.voyages{
+  padding-left: 300px;
+}
+
