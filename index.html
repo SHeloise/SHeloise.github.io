@@ -31,7 +31,7 @@
 
 		<form class="form-inline">
     		<input class="form-control mr-sm-2" type="Rechercher" placeholder="Rechercher" aria-label="Rechercher">
-    		<button type="button" class="btn btn-light">Rechercher</button>
+    		<button type="button" class="rechercher btn-light">Rechercher</button>
   		</form>
 
 		<div class="btn-group" role="group">
@@ -144,7 +144,7 @@
           </div>
         </div>
       </div>
-       <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
         <div class="card">
           <div class="card-body">
             <img class="bijoux2" src="images/collier-chaine-boules.jpg" alt="">
@@ -154,7 +154,7 @@
           </div>
         </div>
       </div>
-       <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
         <div class="card">
           <div class="card-body">
             <img class="bijoux3" src="images/jonc-medaille-pompon.jpg" alt="">
@@ -169,61 +169,74 @@
 
   <div id="footer">
 
-    <div class="navbar3">
-      <p>
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
-      Jeux concours
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-             <h5 class="modal-title" id="exampleModalLabel">Participez à notre jeu concours</h5>
-             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+  <div class="jeu-concours">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <div class="card-body">
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+            Jeux concours
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Participez à notre jeu concours</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                  Tentez de gagner un voyage aux Caraïbes en vous abonnant à notre newsletter !!!!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-light">Sauver</button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="modal-body">
-            Tentez de gagner un voyage aux Caraïbes en vous abonnant à notre newsletter !!!!
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-              <button type="button" class="btn btn-light">Sauver</button>
-            </div>
+            <img class="voyages" src="images/caraibes.jpg" alt="">
+            </p>
           </div>
         </div>
       </div>
-    </p>
-    <img class="voyages" src="images/caraibes.jpg" alt="">
     </div>
 
-    <div class="navbar4">
-      <p>
-	   <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Adresse Mail</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">Votre adresse mail reste confidentielle.</small>
+    <div class="type-form">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <div class="card-body">
+            <p>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Adresse Mail</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">Votre adresse mail reste confidentielle.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Nom</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Prénom</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group1 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Enregister</label>
+                </div>
+                <button type="submit" class="btn btn-light">Envoyer</button>
+              </form>
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Nom</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Prénom</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-group1 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Enregister</label>
-      </div>
-      <button type="submit" class="btn btn-light">Envoyer</button>
-    </form>
-    </p>
     </div>
+  </div>
+    
 
     <div class="container">
       <div class="row">

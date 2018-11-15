@@ -47,6 +47,17 @@
   right: 10px;
   bottom: 10px;
   position: absolute;
+  padding-left: 10px;
+}
+
+.rechercher{
+  background: #9db9f8;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-group{
+  padding-bottom: 10px;
 }
 
 .btn{
@@ -74,6 +85,7 @@
 
 .row{
   margin-top: 100px;
+  padding-right: 10px;
   
 }
 .bijoux{
@@ -112,18 +124,27 @@
   padding-top: 300px;
 }
 
-.navbar4{
-  width: 600px;
-  padding-left: 10px;
-  padding-top: 10px;
+.jeu-concours{
+  margin-right: -1270px;
 }
 
-.navbar3{
-  padding-left: 500px;
-  text-align: center;
+.btn{
+  margin-right: 20px;
 }
 
 .voyages{
-  padding-left: 300px;
+  background-size: cover;
+  margin-bottom: 20px;
 }
 
+.type-form{
+  
+  margin-right: -1270px;
+  
+  padding-bottom: 20px;
+}
+
+.container{
+  margin-right: 100px;
+  height : 100px;
+}
